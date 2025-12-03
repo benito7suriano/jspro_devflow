@@ -1,9 +1,7 @@
-import React from 'react'
+import React from "react";
 
 const Welcome = () => {
-  return (
-    <div className="text-3xl font-bold underline">Welcome to Next.js</div>
-  ) 
-}
+  return <div className="text-3xl font-bold underline">Welcome to Next.js</div>;
+};
 
-export default Welcome
+export default Welcome;
