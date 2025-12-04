@@ -1,7 +1,12 @@
 import React from "react";
 
 const Welcome = () => {
-  return <div className="text-3xl font-bold underline">Welcome to Next.js</div>;
+  return (
+    <div>
+      <h1 className="h1-bold">Welcome to Next.js</h1>
+      <h1 className="h1-bold font-space-grotesk">Welcome to Next.js</h1>
+    </div>
+  );
 };
 
 export default Welcome;
